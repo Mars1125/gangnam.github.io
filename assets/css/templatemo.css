@@ -1,0 +1,641 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&family=Roboto+Flex:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@1;100;200;400;500;600;700;800;900;1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400&display=swap");
+/* General */
+
+.bg-success {
+  background-color: #f69fe7 !important;
+}
+.btn-success {
+  background-color: #f69fe7!important;
+  border-color: #f69fe7 !important;
+}
+.pagination .page-link:hover {
+  color: #000;
+}
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background-color: #ea9fa6;
+  color: #fff;
+}
+/* Nav */
+#templatemo_nav_top {
+  min-height: 40px;
+}
+#templatemo_nav_top * {
+  font-size: 0.9em !important;
+}
+#templatemo_main_nav a {
+  color: #212934;
+}
+#templatemo_main_nav a:hover {
+  color: #69bb7e;
+}
+#templatemo_main_nav .navbar .nav-icon {
+  margin-right: 20px;
+}
+
+/* Product */
+.product-wap {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.product-wap .product-color-dot.color-dot-red {
+  background: #f71515;
+}
+.product-wap .product-color-dot.color-dot-blue {
+  background: #6db4fe;
+}
+.product-wap .product-color-dot.color-dot-black {
+  background: #000000;
+}
+.product-wap .product-color-dot.color-dot-light {
+  background: #e0e0e0;
+}
+.product-wap .product-color-dot.color-dot-green {
+  background: #69bb7e;
+}
+.card.product-wap .card .product-overlay {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a {
+  color: #000;
+}
+
+
+/* Services */
+.services-icon-wap {
+  transition: 0.3s;
+}
+.services-icon-wap:hover,
+.services-icon-wap:hover i {
+  color: #fff;
+}
+.services-icon-wap:hover {
+  background: #69bb7e;
+}
+/* Contact map */
+.leaflet-control a,
+.leaflet-control {
+  font-size: 10px !important;
+}
+.form-control {
+  border: 1px solid #e8e8e8;
+}
+/* Footer */
+#tempaltemo_footer a {
+  color: #dcdde1;
+}
+#tempaltemo_footer a:hover {
+  color: #68bb7d;
+}
+#tempaltemo_footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: 0.5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: 0.5s;
+}
+#tempaltemo_footer .border-light {
+  border-color: #2d343f !important;
+}
+
+.product-wap .h3,
+.product-wap li,
+.product-wap i,
+.product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 {
+    font-size: 1em !important;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {
+    max-width: 450px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {
+    max-width: 550px;
+  }
+  #template-mo-zay-hero-carousel .carousel-item {
+    min-height: 30rem !important;
+  }
+  .product-wap .h3,
+  .product-wap li,
+  .product-wap i,
+  .product-wap p {
+    font-size: 18px !important;
+  }
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/*mis estilos*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*border: solid 1px #000000; 
+  font-family: 'Abel', sans-serif;
+font-family: 'Blinker', sans-serif;*/
+}
+.promocion {
+  background-color: #f9beee;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #504e4e;
+}
+.navbar {
+  --bs-navbar-brand-margin-end: 1rem !important;
+  --bs-navbar-padding-x: 0.5rem !important;
+  --bs-navbar-brand-padding-y: 0 !important;
+  --bs-navbar-padding-y: 0.5rem !important;
+  top: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+}
+.navbar-nav {
+  gap: 1.3rem;
+  transition: all 0.55s ease !important;
+  top: 0;
+}
+.sticky {
+  transition: all 0.15s ease !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  --bs-navbar-padding-x: 0.5rem !important;
+}
+
+.nav-link {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #333;
+  z-index: 7000 !important;
+}
+.logo {
+  max-width: 250px;
+}
+.input-buscar {
+  backdrop-filter: blur(20px);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111;
+  background: rgba(231, 232, 234, 0.5);
+  background-image: none !important;
+  border: 1px solid rgba(231, 232, 234, 0.5);
+  border-radius: 10px;
+  height: 40px !important;
+}
+
+.boton-nav:link {
+  color: #265301;
+}
+li {
+  background-color: none !important;
+}
+.lista-nav-li {
+  list-style: none !important;
+  text-decoration: none;
+}
+.subtitulo {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  font-size: 30px;
+  line-height: 24px;
+  color: #333;
+}
+
+.body-item-vendidos {
+  background-color: rgba(255, 255, 255, 0.395) !important;
+}
+.img-productos-vendidos {
+  transition: all 500ms ease;
+}
+.img-productos-vendidos:hover {
+  transform: scale(1.1);
+}
+.text-item-vendidos {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #504e4e;
+  text-decoration: none;
+}
+.boton-productos-vendidos {
+  letter-spacing: 0.1em;
+  background-color: rgba(255, 255, 255, 0.395) !important;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  border: solid 1px #7a7a7ac2;
+  transition: all 500ms ease;
+}
+.boton-productos-vendidos:hover {
+  background-color: #ea9fa6 !important;
+  color: #fff;
+  border: none;
+}
+
+.clasificacion {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #525150;
+}
+.a-categoria {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.card-img-overlay {
+  background-image: linear-gradient(
+    to top,
+    rgba(4, 4, 4, 0.541),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
+.text-card-cuadricula {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.title-card-cuadricula {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.08em;
+}
+.card {
+  border: none !important;
+}
+.card-body {
+  background-color: rgba(250, 250, 250, 0.4) !important;
+  backdrop-filter: blur(10px);
+}
+
+.contenedor-marcas {
+  background-color: #f5e1e2;
+  /*background: linear-gradient(70deg, #fbf3eb 40%, #ffe3c8 100%);*/
+}
+.card-title-tip {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  color: #504e4e;
+}
+.lista-tip {
+  text-decoration: none;
+  outline: none;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 1rem;
+}
+.card-body-tip {
+  background-color: #f3f3f3e2 !important;
+}
+
+.text-newsletter {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+}
+.text-sub-newsletter {
+  font-family: "Blinker", sans-serif;
+}
+.input-newsletter {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 15px;
+  background-color: rgba(250, 250, 250, 0.4) !important;
+}
+.btn-sub {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  background-color: #ea9fa6 !important;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.btn-sub:hover {
+  letter-spacing: 0.1em;
+  background-color: rgba(255, 255, 255, 0.395) !important;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  border: solid 1px #7a7a7ac2;
+  transition: all 500ms ease;
+  color: #3f3d3d;
+}
+.footer {
+  background-color: #f7f7f7;
+}
+
+.span-footer {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #504e4e;
+}
+
+.footer-list {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Blinker", sans-serif;
+  color: #504e4e;
+}
+.formas-pago {
+  text-decoration: none;
+  list-style: none !important;
+}
+li {
+  margin-top: 5px !important;
+}
+
+hr {
+  color: #000000;
+  height: 2px;
+}
+
+.contenedor-registrarse {
+  background-image: url("../src/banner-horizontal5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.contenedor-formulario {
+  background-color: #f9f8f89c !important;
+}
+.input-formulario {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 15px;
+  background-color: rgba(250, 250, 250, 0.4) !important;
+}
+.input-formulario::placeholder {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 15px;
+}
+.text-formulario {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #3f3d3d;
+}
+.text-formulario-check {
+  font-family: "Abel", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #3f3d3d;
+}
+.boton-registro {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  background-color: #ea9fa6 !important;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.boton-registro:hover {
+  letter-spacing: 0.1em;
+  background-color: rgba(255, 255, 255, 0.395) !important;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  border: solid 1px #7a7a7ac2;
+  transition: all 500ms ease;
+  color: #3f3d3d;
+}
+/*Formulario de Sesion*/
+.contenedor-sesion {
+  background-image: url("../src/banner-horizontal6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+.text-formulario-a {
+  font-family: "Abel", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ea9fa6 !important;
+}
+.table-carrito {
+  font-size: 1rem;
+  color: #3f3d3d;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+.total-carrito{
+  font-size: 1.3rem;
+  color: #3f3d3d;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.link{
+  text-decoration: none !important;
+  outline: none !important;
+  padding: 0 !important; 
+}
+.card-body {
+  background-color: rgba(250, 250, 250, 0.4) !important;
+  backdrop-filter: blur(10px) !important; 
+}
+.card-nombre {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto Flex", sans-serif;
+  color: #504e4e;
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+.card-descripcion {
+  font-family: "Abel", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #504e4e;
+  margin-bottom: 5px !important;
+}
+.card-precio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  color: #504e4e;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+.btn-agregar-producto {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  background-color: #ea9fa6 !important;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.btn-agregar-producto:hover {
+  letter-spacing: 0.1em;
+  background-color: rgba(255, 255, 255, 0.395) !important;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  border: solid 1px #7a7a7ac2;
+  transition: all 500ms ease;
+  color: #3f3d3d;
+}
+/* DETALLE DEL PRODUCTO*/
+.detalle-titulo{
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 2rem;
+}
+.detalle-texto{
+  font-family: "Abel", sans-serif;
+  font-size: 1rem;
+}
+.detalle-precio{
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+.aviso{
+  background-color: #f4d2ff;
+}
+
+.datos-carrito{
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+  font-weight: 400 !important;
+  color: #121212;
+}
+.btn-eliminar{
+  
+}
+
+.nombre-producto{
+  font-family: "Abel", sans-serif;
+  font-size: 35px;
+  font-weight: 400 !important;
+  color: #121212;
+}
+.precio-producto{
+  font-family: "Blinker", sans-serif;
+  font-size: 18px;
+  font-weight: 400 !important;
+  color: #121212;
+}
+.categoria-producto{
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.descripcion-producto{
+  font-family: "Abel", sans-serif;
+  font-size: 17px;
+  font-weight: 400 !important;
+  color: #121212;
+}
+.cantidad-producto{
+  font-family: "Abel", sans-serif;
+  color: #121212 !important;
+  font-size: 14px;
+}
+.text-identidad {
+  font-family: "Abel", sans-serif;
+  color: #504e4e;
+}
+.text-title-identidad {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+.lista-valores,
+li {
+  text-decoration: none !important;
+  list-style: none;
+  font-family: "Abel", sans-serif;
+  color: #504e4e;
+}
+.contenedor-identidad-valores {
+  background-color: #fbf3eb;
+}
+.eslogan-identidad {
+    font-family: "Inter", sans-serif;
+    color: #504e4e;
+    font-weight: 400;
+}
+.contenedor-identidad-objetivos{
+  background-color: #faf1f1;
+}
+.contenedor-acercade{
+  background-color: #f9f1dd;
+}
+.container-acercade-imagen{
+width: 100% !important;
+  height: 400px !important;
+}
+.text-acercade {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #504e4e;
+  text-decoration: none;
+}
+.avisos{
+  text-decoration: none !important;
+  color: #121212;
+}
+.avisos:hover{
+  text-decoration: none !important;
+  color: #121212;
+}
